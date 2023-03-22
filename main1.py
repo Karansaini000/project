@@ -35,12 +35,12 @@ def Ref():
     cochee= float(Cheese_burger.get())
     codr= float(Drinks.get())
 
-    costoffries = cof*20
-    costoflargefries = colfries*40
-    costofburger = cob*55
-    costoffilet = cofi*60
-    costofcheeseburger = cochee*35
-    costofdrinks = codr*40
+    costoffries = cof*30
+    costoflargefries = colfries*50
+    costofburger = cob*50
+    costoffilet = cofi*35
+    costofcheeseburger = cochee*40
+    costofdrinks = codr*60
 
     costofmeal = "Rs.",str('%.2f'% (costoffries +  costoflargefries + costofburger + costoffilet + costofcheeseburger + costofdrinks))
     PayTax=((costoffries +  costoflargefries + costofburger + costoffilet +  costofcheeseburger + costofdrinks)*0.33)
